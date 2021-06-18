@@ -15,7 +15,7 @@ def solution(numbers):
         #numbers[i]는 첫 번째 선택한 숫자
            두수의합 = numbers[i] + numbers[j]
            answer.append(두수의합)
-           return set(answer)
+           return list(set(answer))
 
 
         if __name__ == "main":
