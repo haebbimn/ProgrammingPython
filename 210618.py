@@ -14,8 +14,9 @@ def solution(numbers):
         for j in range(i+1,len(numbers)):
         #numbers[i]는 첫 번째 선택한 숫자
            두수의합 = numbers[i] + numbers[j]
-        if(두수의합) not in answer:
-                answer.append()
+           answer.append(두수의합)
+           return set(answer)
+
 
         if __name__ == "main":
             main()
